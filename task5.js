@@ -1,3 +1,5 @@
+'use strict';
+
 const checkForSpam = function(message) {
     // делаем всю строку в нижнем регистре
     const checker = message.toLowerCase();

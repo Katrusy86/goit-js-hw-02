@@ -1,3 +1,5 @@
+'use strict';
+
 const formatString = function(string) {
     //проверяем сразу же, длину строки, если 40 и меньше, выводим
     if (string.length <= 40) {
